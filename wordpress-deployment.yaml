@@ -1,0 +1,16 @@
+imports:
+- path: wordpress-deployment.py
+- path: network-template.py
+- path: autoscaled-group.py
+- path: instance-template.py
+- path: backend-service.py
+- path: http-load-balancer.py
+- path: cloudsql-db.py
+- path: bucket-template.py
+- path: default.py
+resources:
+- name: wordpress-deployment
+  type: wordpress-deployment.py
+  
+  
+  
